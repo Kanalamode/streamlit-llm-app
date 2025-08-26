@@ -6,6 +6,8 @@ from langchain.schema import SystemMessage, HumanMessage
 from dotenv import load_dotenv
 load_dotenv()
 
+st.title("質問回答アプリ")
+
 input_message = st.text_input(label="質問を入力してください。")
 
 #回答者の立場を選択するラジオボタン
